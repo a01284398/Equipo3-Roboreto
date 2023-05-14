@@ -6,22 +6,25 @@
 import rospy
 import numpy as np 
 from geometry_msgs.msg import Twist 
-
-msg=Twist()
+from geometry_msgs.msg import Pose2D
+from std_msgs.msg import Float32
 
 #declaramos el tiempo
 vel= 0.5
-dis= 2
-tiempoto = dis/vel
+wl=1
+wr=1
 
 if __name__ == '__main__':
-    pub = rospy.Publisher("cmd_pwmL", Twist, queue_size=10)
+    msg = Twist()
+    cmd_vel= rospy.Publisher ("cmd_vel", Twist, queue_size=10) 
     rospy.init_node('controller')
     rate= rospy.Rate(10)
-    
-    msg.linear.x=0.5
 
-    while not rospy.is_shutdown():
-        pub.publish(msg)    
-        rate.sleep()
     
+    while not rospy.is_shutdown():
+	    wl=1.0
+	    wr=1.0
+        msg.linear.x=1.0
+	    msg.angular.x=1.0
+	    cmd_vel.publish(msg)   
+        rate.sleep()
