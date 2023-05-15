@@ -6,7 +6,7 @@ En este repositorio se encontraran todas las actividades y challenges que se rea
 El equipo está conformado por:
 
 Kevin Alberto Crisostomo - A00832188 <br>
-Armando Angel Martínez Villarreal - A00830032
-Yosel Eduardo Delgado Salas - A00830161
-André Borda Ramos - A01284398
-Alessandro Arguelles Elias - A00829536
+Armando Angel Martínez Villarreal - A00830032 <br>
+Yosel Eduardo Delgado Salas - A00830161 <br>
+André Borda Ramos - A01284398 <br>
+Alessandro Arguelles Elias - A00829536 <br>
