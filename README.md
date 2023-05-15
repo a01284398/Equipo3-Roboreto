@@ -5,7 +5,7 @@ En este repositorio se encontraran todas las actividades y challenges que se rea
 
 El equipo está conformado por:
 
-Kevin Alberto Crisostomo - A00832188
+Kevin Alberto Crisostomo - A00832188 <br>
 Armando Angel Martínez Villarreal - A00830032
 Yosel Eduardo Delgado Salas - A00830161
 André Borda Ramos - A01284398
